@@ -1,0 +1,23 @@
+*** Variables ***
+${URL}           https://automacao.qacoders-academy.com.br/login
+${email}         //input[@id='email']
+${password}      //input[@id='password']
+${ButtonEntrar}  //button[contains(@id,'login')]
+${Cadastro}       //div[contains(@id,'Cadastros')]
+${usuarios}       //span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Usuários')]
+${NovoCadastro}   //button[@class='css-fvzsut'][contains(.,'Novo Cadastro')]
+${NomeCompleto_form}   //input[contains(@name,'fullName')]
+${Email_form}     //input[contains(@name,'mail')]
+${Perfil_Acesso_form}  //input[contains(@name,'accessProfile')]
+${CPF_form}                 //input[contains(@name,'cpf')]
+${password_form}            //input[contains(@name,'password')]
+${confirmarSenha_form}   //input[contains(@name,'password')]
+${ButtonSalvar_fomr}     //button[@type='submit'][contains(.,'SALVAR NOVO')]
+${Diretoria}            //span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Diretorias')]
+${NovoCadastro_Diretoria}   //button[@class='css-fvzsut'][contains(.,'Novo Cadastro')]
+${NomeDiretoria}          //input[contains(@class,'MuiInputBase-input MuiInput-input css-mnn31')]
+${Button_Salvar_Diretoria}    //button[@type='submit'][contains(.,'SALVAR NOVO')]
+${Button_Editar}   (//button[contains(@id,'edit')])[1]
+${NomeEditar}       //input[contains(@class,'MuiInputBase-input MuiInput-input css-mnn31')]
+${ButtonSalvar_Alteracoes}   //button[@type='submit'][contains(.,'SALVAR ALTERAÇOES')]
+
