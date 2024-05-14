@@ -8,7 +8,7 @@ Resource  variaveis.resource
 *** Keywords ***
 
 Abrir o navegador
-    Open Browser   browser=chrome
+    Open Browser   browser=headlesschrome
     Maximize Browser Window
 Fechar o navegador 
   close Browser
