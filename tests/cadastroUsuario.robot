@@ -1,6 +1,7 @@
 *** Settings ***
-Resource    ../resources/front.resource
-Resource    ../resources/variaveis.resource
+Resource    ../resource/front.resource
+Resource    ../resource/variaveis.resource
+
 Test Setup       Abrir o navegador
 Test Teardown    Fechar o navegador
 
